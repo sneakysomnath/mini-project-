@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Practice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Transform Your Life Through <span class="highlight">Yoga</span></h1>
+            <p>Discover inner peace, enhance your physical well-being, and achieve harmony in mind and body through our transformative yoga practices.</p>
+        </div>
+
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="icon">❤️</div>
+                <h3>Physical Health</h3>
+                <p>Improve flexibility, strength, and posture</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">🧠</div>
+                <h3>Mental Clarity</h3>
+                <p>Reduce stress and enhance focus</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">⚡</div>
+                <h3>Energy Balance</h3>
+                <p>Boost vitality and inner harmony</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">🌸</div>
+                <h3>Spiritual Growth</h3>
+                <p>Deepen self-awareness and inner peace</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="yoga-types">
+        <div class="section-header">
+            <h2>Explore Different Types of Yoga</h2>
+            <p>Find the perfect practice that resonates with your body and spirit</p>
+        </div>
+        <div class="yoga-grid" id="yogaGrid"></div>
+    </section>
+
+    <!-- Modal -->
+    <div id="yogaModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="js/yogaData.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
